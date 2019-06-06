@@ -46,6 +46,7 @@ type (
 		key              map[string]*dynamodb.AttributeValue
 		table            *string
 		output           *dynamodb.UpdateItemOutput
+		updateExpression *string
 	}
 
 	// PutItemExpectation struct hold expectation field, err, and result
